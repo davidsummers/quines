@@ -1,0 +1,12 @@
+#! /bin/sh
+gcc replicate.c -o replicate
+echo "Self replicating program output:"
+echo "=========="
+./replicate
+echo "=========="
+./replicate > replicate.new.c
+echo "Checking: any differences will show up between the delimiters."
+echo "=========="
+diff -ur replicate.c replicate.new.c
+echo "=========="
+rm -rf replicate.new.c
