@@ -19,4 +19,5 @@ http://www.nyx.net/~gthompso/self_c.txt
 TODO
 ====
 
-CMAKE-ify the program to compile and run on multiple platforms.
+- CMAKE-ify the program to compile and run on multiple platforms.
+- Try other languages.
