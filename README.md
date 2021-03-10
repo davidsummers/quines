@@ -10,3 +10,8 @@ To compile, run, and verify the program, run the following program:
 More versions of self-replicating programs:
 
 http://www.nyx.net/~gthompso/self_c.txt
+
+TODO
+====
+
+CMAKE-ify the program to compile and run on multiple platforms.
