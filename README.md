@@ -1,3 +1,6 @@
+Replicate
+=========
+
 This program is a self-replicating C program.
 
 It prints its contents on the standard output.
