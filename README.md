@@ -9,6 +9,8 @@ To compile, run, and verify the program, run the following program:
 
 ./check
 
+References
+==========
 
 More versions of self-replicating programs:
 
