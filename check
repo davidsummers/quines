@@ -1,12 +1,21 @@
 #! /bin/sh
+
+echo "Compiling replicate..."
 gcc replicate.c -o replicate
-echo "Self replicating program output:"
-echo "=========="
-./replicate
+echo "Show any differences for output of 'replicate':"
 echo "=========="
 ./replicate > replicate.new.c
-echo "Checking: any differences will show up between the delimiters."
-echo "=========="
 diff -ur replicate.c replicate.new.c
 echo "=========="
 rm -rf replicate.new.c
+
+echo ""
+
+echo "Compiling replicate1..."
+gcc replicate1.c -o replicate1
+echo "Show any differences for output of 'replicate1':"
+echo "=========="
+./replicate1 > replicate1.new.c
+diff -ur replicate1.c replicate1.new.c
+echo "=========="
+rm -rf replicate1.new.c
