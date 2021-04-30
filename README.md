@@ -12,7 +12,11 @@ To compile, run, and verify the program, run the following program:
 References
 ==========
 
-More versions of self-replicating programs:
+On Trusting Trust:
+
+http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf
+
+More versions of quine programs:
 
 http://www.nyx.net/~gthompso/self_c.txt
 
