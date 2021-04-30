@@ -17,3 +17,10 @@ echo "=========="
 ./quine2 | diff -ur quine2.c -
 echo "=========="
 rm quine2
+
+echo "Compiling C++ quine3..."
+g++ quine3.cpp -o quine3
+echo "Shown any differences for output of 'quine3':"
+echo "========="
+./quine3 | diff -ur quine3.cpp -
+echo "========="
