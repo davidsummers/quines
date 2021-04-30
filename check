@@ -1,17 +1,19 @@
 #! /bin/sh
 
-echo "Compiling replicate..."
-gcc replicate.c -o replicate
-echo "Show any differences for output of 'replicate':"
+echo "Compiling C quine1..."
+gcc quine1.c -o quine1
+echo "Show any differences for output of 'quine1':"
 echo "=========="
-./replicate | diff -ur replicate.c -
+./quine1 | diff -ur quine1.c -
 echo "=========="
+rm quine1
 
 echo ""
 
-echo "Compiling replicate1..."
-gcc replicate1.c -o replicate1
-echo "Show any differences for output of 'replicate1':"
+echo "Compiling C quine2..."
+gcc quine2.c -o quine2
+echo "Show any differences for output of 'quine2':"
 echo "=========="
-./replicate1 | diff -ur replicate1.c -
+./quine2 | diff -ur quine2.c -
 echo "=========="
+rm quine2
