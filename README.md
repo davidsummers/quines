@@ -1,5 +1,5 @@
-Replicate
-=========
+QUINE
+=====
 
 This program is a self-replicating C program.
 
